@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KIDraws: Suporte · Support · Soporte</title>
+<meta name="description" content="Ajuda do KIDraws: restaurar compras, cancelar assinatura, apagar dados e contato. KIDraws help. Ayuda de KIDraws.">
+<!--
+  Fontes consultadas para redigir esta página (pesquisa de 2026-10-07):
+  - Apple, cancelar assinatura: https://support.apple.com/en-us/118428
+  - Apple, pedir reembolso: https://support.apple.com/en-us/118223
+  - Google Play, cancelar, pausar ou alterar assinatura: https://support.google.com/googleplay/answer/7018481
+  - Google Play, reembolsos: https://support.google.com/googleplay/answer/2479637
+  - Google Play Billing, link para a central de assinaturas: https://developer.android.com/google/play/billing/subscriptions
+  - Apple App Review Guidelines 3.1.1 (restaurar compras), 5.1.1(v) e 1.3: https://developer.apple.com/app-store/review/guidelines/
+  - App Store Connect, URL de suporte com contato real: https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information
+  - ECA Digital (Lei 15.211/2025), art. 16 e 28 (informação aos pais; canal para notificações): https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm
+-->
+<style>
+  :root {
+    --bg: #fffdf7; --fg: #2b2a28; --muted: #6b665c; --accent: #2f6b3a;
+    --card: #f4efe2; --line: #e3dccb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1a18; --fg: #efebe2; --muted: #b3ac9c; --accent: #8fd19e; --card: #26241f; --line: #3a372f; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 0 16px 64px; }
+  nav {
+    position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line);
+    display: flex; gap: 8px; justify-content: center; padding: 10px 16px; z-index: 1;
+  }
+  nav a {
+    color: var(--accent); text-decoration: none; font-weight: 600;
+    padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px;
+  }
+  nav a:hover, nav a:focus-visible { background: var(--card); }
+  section { padding-top: 24px; scroll-margin-top: 64px; }
+  section + section { border-top: 1px solid var(--line); margin-top: 40px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 6px; }
+  p, li { overflow-wrap: anywhere; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0 0 16px; }
+  .contact { background: var(--card); border-radius: 12px; padding: 4px 18px; }
+  details { border: 1px solid var(--line); border-radius: 12px; padding: 10px 16px; margin: 10px 0; }
+  details[open] { background: var(--card); }
+  summary { cursor: pointer; font-weight: 600; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .85rem; text-align: center; padding: 24px 16px; }
+</style>
+</head>
+<body>
+<nav aria-label="Idioma / Language / Idioma">
+  <a href="#pt" hreflang="pt-BR">Português</a>
+  <a href="#en" hreflang="en">English</a>
+  <a href="#es" hreflang="es">Español</a>
+</nav>
+<main>
+
+<!-- ============================== PORTUGUÊS ============================== -->
+<section id="pt" lang="pt-BR">
+<h1>Suporte do KIDraws</h1>
+<p class="meta">Ajuda para pais e responsáveis · versão 1.0.0</p>
+
+<div class="contact">
+<p><strong>Fale conosco:</strong> <a href="mailto:xthallis@gmail.com">xthallis@gmail.com</a><br>Thallis Ribeiro · Brasil<br>Respondemos por e-mail. Por favor, não envie dados ou fotos da criança.</p>
+</div>
+
+<details open>
+<summary>Como abro a área dos pais?</summary>
+<p>Toque em "Área dos pais" e resolva a conta de soma que aparece (por exemplo, 34 + 27 = 61). A conta muda a cada vez. É ali que ficam a assinatura, o idioma, os sons, a narração, a vibração, o tempo de tela, a opção de apagar pinturas e as informações de privacidade.</p>
+</details>
+
+<details>
+<summary>Como restauro minha assinatura?</summary>
+<p>Na área dos pais, toque em "Restaurar compras". Use a mesma conta Apple ou Google que fez a compra. A assinatura vale nos aparelhos da mesma loja: uma assinatura feita no iPhone não passa para o Android, e o contrário também não.</p>
+</details>
+
+<details>
+<summary>Como cancelo no iPhone ou iPad?</summary>
+<ol>
+  <li>Abra o app Ajustes e toque no seu nome.</li>
+  <li>Toque em Assinaturas.</li>
+  <li>Escolha KIDraws e toque em Cancelar Assinatura.</li>
+</ol>
+<p>Atalho: <a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>. Para não ser cobrado depois do teste grátis, cancele até 24 horas antes de ele terminar. Ajuda da Apple: <a href="https://support.apple.com/pt-br/118428">Cancelar uma assinatura da Apple</a>.</p>
+</details>
+
+<details>
+<summary>Como cancelo no Android?</summary>
+<ol>
+  <li>Abra a Play Store e toque na foto do seu perfil.</li>
+  <li>Toque em Pagamentos e assinaturas &gt; Assinaturas.</li>
+  <li>Escolha KIDraws e toque em Cancelar assinatura.</li>
+</ol>
+<p>Atalho: <a href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a>. Desinstalar o app não cancela a assinatura. Ajuda do Google: <a href="https://support.google.com/googleplay/answer/7018481?hl=pt-BR">Cancelar, pausar ou alterar uma assinatura</a>.</p>
+</details>
+
+<details>
+<summary>Quando o teste grátis vira cobrança?</summary>
+<p>Ao fim dos 7 dias, a assinatura escolhida (mensal ou anual) é cobrada automaticamente na conta da loja, a menos que tenha sido cancelada antes. Depois disso, ela se renova a cada período até ser cancelada.</p>
+</details>
+
+<details>
+<summary>Como peço reembolso?</summary>
+<p>Os pagamentos são processados pela Apple ou pelo Google, e quem analisa os reembolsos são eles. Na Apple, use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> (<a href="https://support.apple.com/pt-br/118223">ajuda</a>). No Google Play, veja a <a href="https://support.google.com/googleplay/answer/2479637?hl=pt-BR">política de reembolso</a>. Se precisar, escreva para nós e ajudamos no que for possível.</p>
+</details>
+
+<details>
+<summary>Como apago as pinturas e os dados?</summary>
+<p>Na área dos pais, toque em "Apagar todas as pinturas". Desinstalar o app ou limpar os dados dele também apaga tudo. Não guardamos cópia: o KIDraws não envia nada para servidores. No iPhone e no iPad, os backups do aparelho (iCloud ou computador) podem conter os dados do app, conforme os seus ajustes.</p>
+</details>
+
+<details>
+<summary>Como funcionam o tempo de tela e a hora de descansar?</summary>
+<p>Na área dos pais, defina o "Tempo de tela". Quando o tempo acaba, a ovelhinha vai dormir e só um adulto, resolvendo o desafio, consegue continuar.</p>
+</details>
+
+<details>
+<summary>A narração não fala. O que faço?</summary>
+<p>Confira se "Narração" está ligada na área dos pais, se o volume está alto e, no iPhone, se o modo silencioso está desligado. A narração usa a voz do próprio aparelho: se o idioma escolhido não tiver voz instalada, instale-a nos ajustes de texto para fala do sistema (o caminho muda de aparelho para aparelho).</p>
+</details>
+
+<details>
+<summary>O app coleta dados da minha criança?</summary>
+<p>Não. O app não tem contas, anúncios, ferramentas de análise nem rastreamento, e as pinturas ficam só no aparelho. Leia a <a href="privacy-policy.html#pt">Política de Privacidade</a> e os <a href="terms.html#pt">Termos de Uso</a>.</p>
+</details>
+
+<details>
+<summary>Quero avisar sobre algo inadequado para crianças</summary>
+<p>Escreva para <a href="mailto:xthallis@gmail.com">xthallis@gmail.com</a> contando o que viu e em que parte do app. Analisaremos e responderemos.</p>
+</details>
+</section>
+
+<!-- ============================== ENGLISH ============================== -->
+<section id="en" lang="en">
+<h1>KIDraws Support</h1>
+<p class="meta">Help for parents and guardians · version 1.0.0</p>
+
+<div class="contact">
+<p><strong>Contact us:</strong> <a href="mailto:xthallis@gmail.com">xthallis@gmail.com</a><br>Thallis Ribeiro · Brazil<br>We reply by email. Please do not send your child's data or photos.</p>
+</div>
+
+<details open>
+<summary>How do I open the parent area?</summary>
+<p>Tap "Parent area" and solve the addition shown (for example, 34 + 27 = 61). The sum changes every time. That is where you find the subscription, language, sounds, narration, vibration, screen time, the option to delete paintings and privacy information.</p>
+</details>
+
+<details>
+<summary>How do I restore my subscription?</summary>
+<p>In the parent area, tap "Restore purchases". Use the same Apple or Google account that made the purchase. The subscription works on devices from the same store: one bought on iPhone does not carry over to Android, and the other way around.</p>
+</details>
+
+<details>
+<summary>How do I cancel on iPhone or iPad?</summary>
+<ol>
+  <li>Open the Settings app and tap your name.</li>
+  <li>Tap Subscriptions.</li>
+  <li>Choose KIDraws and tap Cancel Subscription.</li>
+</ol>
+<p>Shortcut: <a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>. To avoid being charged after the free trial, cancel at least 24 hours before it ends. Apple help: <a href="https://support.apple.com/en-us/118428">Cancel a subscription from Apple</a>.</p>
+</details>
+
+<details>
+<summary>How do I cancel on Android?</summary>
+<ol>
+  <li>Open the Play Store and tap your profile picture.</li>
+  <li>Tap Payments &amp; subscriptions &gt; Subscriptions.</li>
+  <li>Choose KIDraws and tap Cancel subscription.</li>
+</ol>
+<p>Shortcut: <a href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a>. Uninstalling the app does not cancel the subscription. Google help: <a href="https://support.google.com/googleplay/answer/7018481?hl=en">Cancel, pause, or change a subscription</a>.</p>
+</details>
+
+<details>
+<summary>When does the free trial turn into a charge?</summary>
+<p>When the 7 days end, the plan you chose (monthly or yearly) is charged automatically to your store account, unless it was cancelled before. After that, it renews every period until you cancel.</p>
+</details>
+
+<details>
+<summary>How do I ask for a refund?</summary>
+<p>Payments are processed by Apple or Google, and they review refunds. For Apple, use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> (<a href="https://support.apple.com/en-us/118223">help</a>). For Google Play, see the <a href="https://support.google.com/googleplay/answer/2479637?hl=en">refund policy</a>. If you need us, write and we will help however we can.</p>
+</details>
+
+<details>
+<summary>How do I delete paintings and data?</summary>
+<p>In the parent area, tap "Delete all paintings". Uninstalling the app or clearing its data also erases everything. We keep no copy, because KIDraws sends nothing to servers. On iPhone and iPad, device backups (iCloud or a computer) may contain the app's data, depending on your settings.</p>
+</details>
+
+<details>
+<summary>How do screen time and bedtime work?</summary>
+<p>In the parent area, set "Screen time". When time is up, the lamb goes to sleep and only a grown-up who solves the challenge can continue.</p>
+</details>
+
+<details>
+<summary>Narration is silent. What can I do?</summary>
+<p>Check that "Narration" is on in the parent area, that the volume is up and, on iPhone, that silent mode is off. Narration uses the device's own voice: if the chosen language has no voice installed, add one in the system's text-to-speech settings (the path differs between devices).</p>
+</details>
+
+<details>
+<summary>Does the app collect my child's data?</summary>
+<p>No. The app has no accounts, ads, analytics or tracking, and paintings stay on the device. Read the <a href="privacy-policy.html#en">Privacy Policy</a> and the <a href="terms.html#en">Terms of Use</a>.</p>
+</details>
+
+<details>
+<summary>I want to report something inappropriate for children</summary>
+<p>Write to <a href="mailto:xthallis@gmail.com">xthallis@gmail.com</a> and tell us what you saw and where in the app. We will review it and reply.</p>
+</details>
+</section>
+
+<!-- ============================== ESPAÑOL ============================== -->
+<section id="es" lang="es">
+<h1>Soporte de KIDraws</h1>
+<p class="meta">Ayuda para padres y tutores · versión 1.0.0</p>
+
+<div class="contact">
+<p><strong>Contáctanos:</strong> <a href="mailto:xthallis@gmail.com">xthallis@gmail.com</a><br>Thallis Ribeiro · Brasil<br>Respondemos por correo. Por favor, no envíes datos ni fotos del niño.</p>
+</div>
+
+<details open>
+<summary>¿Cómo abro el área de padres?</summary>
+<p>Toca "Área de padres" y resuelve la suma que aparece (por ejemplo, 34 + 27 = 61). La suma cambia cada vez. Ahí están la suscripción, el idioma, los sonidos, la narración, la vibración, el tiempo de pantalla, la opción de borrar pinturas y la información de privacidad.</p>
+</details>
+
+<details>
+<summary>¿Cómo restauro mi suscripción?</summary>
+<p>En el área de padres, toca "Restaurar compras". Usa la misma cuenta de Apple o de Google con la que compraste. La suscripción vale en dispositivos de la misma tienda: una comprada en iPhone no pasa a Android, ni al revés.</p>
+</details>
+
+<details>
+<summary>¿Cómo cancelo en iPhone o iPad?</summary>
+<ol>
+  <li>Abre la app Ajustes y toca tu nombre.</li>
+  <li>Toca Suscripciones.</li>
+  <li>Elige KIDraws y toca Cancelar suscripción.</li>
+</ol>
+<p>Atajo: <a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>. Para que no se cobre después de la prueba gratis, cancela al menos 24 horas antes de que termine. Ayuda de Apple: <a href="https://support.apple.com/es-es/118428">Cancelar una suscripción de Apple</a>.</p>
+</details>
+
+<details>
+<summary>¿Cómo cancelo en Android?</summary>
+<ol>
+  <li>Abre Play Store y toca tu foto de perfil.</li>
+  <li>Toca Pagos y suscripciones &gt; Suscripciones.</li>
+  <li>Elige KIDraws y toca Cancelar suscripción.</li>
+</ol>
+<p>Atajo: <a href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a>. Desinstalar la app no cancela la suscripción. Ayuda de Google: <a href="https://support.google.com/googleplay/answer/7018481?hl=es">Cancelar, pausar o cambiar una suscripción</a>.</p>
+</details>
+
+<details>
+<summary>¿Cuándo se cobra después de la prueba gratis?</summary>
+<p>Al terminar los 7 días, el plan elegido (mensual o anual) se cobra automáticamente en la cuenta de la tienda, salvo que se haya cancelado antes. Después, se renueva cada periodo hasta que lo canceles.</p>
+</details>
+
+<details>
+<summary>¿Cómo pido un reembolso?</summary>
+<p>Los pagos los procesan Apple o Google, y ellos revisan los reembolsos. En Apple, usa <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> (<a href="https://support.apple.com/es-es/118223">ayuda</a>). En Google Play, consulta la <a href="https://support.google.com/googleplay/answer/2479637?hl=es">política de reembolsos</a>. Si lo necesitas, escríbenos y te ayudaremos en lo que podamos.</p>
+</details>
+
+<details>
+<summary>¿Cómo borro las pinturas y los datos?</summary>
+<p>En el área de padres, toca "Borrar todas las pinturas". Desinstalar la app o borrar sus datos también lo elimina todo. No guardamos copia, porque KIDraws no envía nada a servidores. En iPhone y iPad, las copias de seguridad del dispositivo (iCloud o un ordenador) pueden contener los datos de la app, según tus ajustes.</p>
+</details>
+
+<details>
+<summary>¿Cómo funcionan el tiempo de pantalla y la hora de descansar?</summary>
+<p>En el área de padres, define el "Tiempo de pantalla". Cuando se acaba el tiempo, la ovejita se duerme y solo un adulto que resuelva el desafío puede continuar.</p>
+</details>
+
+<details>
+<summary>La narración no suena. ¿Qué hago?</summary>
+<p>Comprueba que la "Narración" esté activada en el área de padres, que el volumen esté alto y, en iPhone, que el modo silencio esté desactivado. La narración usa la voz del propio dispositivo: si el idioma elegido no tiene voz instalada, instálala en los ajustes de texto a voz del sistema (la ruta cambia según el dispositivo).</p>
+</details>
+
+<details>
+<summary>¿La app recopila datos de mi hijo?</summary>
+<p>No. La app no tiene cuentas, anuncios, herramientas de análisis ni seguimiento, y las pinturas se quedan en el dispositivo. Lee la <a href="privacy-policy.html#es">Política de Privacidad</a> y los <a href="terms.html#es">Términos de Uso</a>.</p>
+</details>
+
+<details>
+<summary>Quiero avisar de algo inadecuado para niños</summary>
+<p>Escribe a <a href="mailto:xthallis@gmail.com">xthallis@gmail.com</a> contando qué viste y en qué parte de la app. Lo revisaremos y responderemos.</p>
+</details>
+</section>
+
+</main>
+<footer>KIDraws · Thallis Ribeiro · <a href="privacy-policy.html">Privacidade / Privacy / Privacidad</a> · <a href="terms.html">Termos / Terms / Términos</a></footer>
+</body>
+</html>
